@@ -25,7 +25,8 @@ h1 {
 .game {
     display: flex;
     margin: 10px;
-    gap: 5px;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .response, .choice {
@@ -62,5 +63,9 @@ button:hover {
 }
 
 .picks {
+    text-align: center;
+}
+
+#placeholder, #placeholdertwo {
     text-align: center;
 }
