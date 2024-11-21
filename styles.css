@@ -36,5 +36,31 @@ h1 {
 }
 
 .pick {
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
+button {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Bangers", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        border: 1px solid black;
+        border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(118, 160, 146);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.picks {
+    text-align: center;
+}
